@@ -16,8 +16,9 @@ public class SecureBankAccount {
         addReward();
     }
 
-    public void displayAccountBalance() {
-        System.out.println("Your account balance is " + accountBalance);
+    public int displayAccountBalance() {
+        return accountBalance;
+        //System.out.println("Your account balance is " + accountBalance);
     }
 
     public void debitAmount (int amount) {

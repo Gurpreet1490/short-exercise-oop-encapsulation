@@ -16,8 +16,9 @@ public class DodgyBankAccount {
         addReward();
     }
 
-    public void getAccountBalance() {
-        System.out.println("Your account balance is " + accountBalance);
+    public int getAccountBalance() {
+        return accountBalance;
+        //System.out.println("Your account balance is " + accountBalance);
     }
 
     public void debitAmount (int amount) {
